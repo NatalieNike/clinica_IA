@@ -7,7 +7,7 @@ import joblib
 #carregar dataset
 df = pd.read_csv("dataset.csv")
 
-x = df["sintoma"]
+x = df["sintomas"]
 y = df["categoria"]
 
 model = Pipeline([
